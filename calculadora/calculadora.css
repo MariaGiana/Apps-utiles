@@ -16,3 +16,6 @@ background-color: rgba(169, 169, 169, 0.589);
 a{ text-decoration: none;
 color: inherit;
 }
+h1{
+    color: blueviolet;
+}

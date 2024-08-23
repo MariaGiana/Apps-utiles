@@ -51,7 +51,7 @@ switch($operacion){
 echo("El resultado es:".$resultado."   ");
 }*/
 
-
+//usando funciones
 switch($operacion){
     case'sumar':{
         $resultado=sumar($numero1,$numero2);
@@ -65,15 +65,22 @@ switch($operacion){
         $resultado=multiplicar($numero1,$numero2);
         break;
     }
-    case'dividir':{
-        if($numero2!=0){
-        $resultado=dividir($numero1,$numero2);
-       
-    }else echo ("ingrese otro numero");
-    break;
-}
-echo("El resultado es:".$resultado."   ");
-}
+    case 'dividir': {
+        if ($numero2 != 0) {
+            $resultado = dividir($numero1, $numero2);
+        } else {
+            echo("Ingrese otro número, no se puede dividir por 0");
+            exit; // Termina la ejecución del script si hay un error
+        }
+        break;
     }
+    default: {
+        echo("Operación no válida");
+        exit;
+    }
+}
+echo("El resultado es: " . $resultado);
+}
 ?>
-<a href="ejercicio7.html">VOLVER</a>
+
+<a href="index.html">VOLVER</a>

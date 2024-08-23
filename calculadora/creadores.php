@@ -15,8 +15,8 @@
             <li><a href="creadores.php">About</a></li>
         </ul>
     </nav>
-    <h1>ACERCA DE...</h1>
+    <h1>ACERCA DE LOS CREADORES...</h1>
 
-<p>El autor .</p>
+<p>El autor de esta calculadora es Maria Jose Giannaccini.</p>
 </body>
 </html>
