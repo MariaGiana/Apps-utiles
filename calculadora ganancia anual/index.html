@@ -1,0 +1,34 @@
+<!--Una persona desea invertir dinero en un banco, el cual le otorga un % de interés
+mensual. Escribir un programa para simular la inversión que imprima cuál será la
+cantidad de dinero que esta persona tendrá mes a mes durante un año. Genere una
+tabla HTML para mostrar el resultado.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="06.css">
+    <title>ejercicio 6</title>
+</head>
+<body>
+    <div id="formulario">
+    <form method="POST"  name="formulario"  action="06.php">
+    <label>NOMBRE USUARIO:</label>
+    <input type="text" name="nombre" require>    
+    <label>Ingrese el monto inicial:</label>
+        <input type="number" name="monto" require>
+        <label>Ingrese la tasa de ganancia mensual:</label>
+        <input type="number" name="porcentaje" require>
+        <input type="submit" value="CALCULAR" class="btn_calcular">
+    </form>
+        </div>
+
+        <div id="resultados">
+       
+        </div>
+        <!--<button id="btn_borrar">BORRAR</button>
+        <script src="06.js"></script>-->
+    
+</body>
+</html>

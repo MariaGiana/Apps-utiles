@@ -1,0 +1,22 @@
+#formulario label,#formulario input{
+display: block;
+margin-bottom: 8px;
+}
+#formulario{
+    margin:15px ;
+}
+#resultados{
+    margin: 10px;
+    padding: 10px;
+}
+.leyenda{
+    margin: 10px;
+    font-weight:bold;
+    background-color: yellow;
+}
+
+#btn_borrar,.btn_calcular{
+background-color: violet;
+border-radius: 10px;
+padding: 5px;
+}
