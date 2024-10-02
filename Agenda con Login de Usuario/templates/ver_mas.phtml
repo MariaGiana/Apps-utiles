@@ -1,0 +1,9 @@
+<?php require './templates/layout/header.phtml';
+    ?>
+    <div class="form-group">
+        <label>Descripcion</label>
+        <textarea name="description" class="form-control" rows="3"><?= $task->descripcion ?></textarea>
+        </div>
+        <a href="listar" id="volver">VOLVER</a>
+<?php
+    require './templates/layout/footer.phtml';
