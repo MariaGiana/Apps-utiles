@@ -31,8 +31,8 @@ Para ingresar informacion para agregar o modificar con POST o PUT puede hacerse 
 Ej:  
 
 {  
-    "titulo": "Ir al dentista",  
-    "descripcion": "Corroborar turno",  
-    "prioridad": 3
+     "id": 16,  
+    "name": "Arbol",  
+    "image": "tree_167.jpg"  
         
 }  
